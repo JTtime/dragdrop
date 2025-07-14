@@ -93,11 +93,13 @@ function DragDropList() {
                   ? "#0E59A9"
                   : draggingIndex === index
                   ? "#d1e7fd"
-                  : "#f0f0f0",
+                  : "#c63737ff",
+
               border: "1px solid #ccc",
+              color: "#aaaaaa",
               cursor: "move",
               userSelect: "none",
-              transition: "background-color 2s ease",
+              transition: "background-color 1s ease",
             }}
           >
             {item}
